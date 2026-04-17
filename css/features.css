@@ -5,15 +5,17 @@
 
 .features-item {
   width: 100%;
-  margin-bottom: 24px;
+  margin-bottom: 72px;
 }
 
 .features-subtitle {
   margin-bottom: 8px;
 
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -34,7 +36,8 @@
     gap: 72px 24px;
   }
   .features-item {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 24px) / 2);
+    margin-bottom: 0;
   }
 
   .features-subtitle {
@@ -57,5 +60,9 @@
     border: 1px solid #8e8f99;
     border-radius: 4px;
     background-color: #f4f4fd;
+  }
+
+  .features-subtitle {
+    font-weight: 500;
   }
 }

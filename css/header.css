@@ -42,9 +42,10 @@
     height: 72px;
   }
 
-  .header-container {
-    justify-content: space-between;
+  .header-logo {
+    margin-right: 120px;
   }
+
   .burger-btn {
     display: none;
   }
@@ -69,6 +70,10 @@
     gap: 40px;
   }
 
+  .contacts-item {
+    margin-bottom: 12px;
+  }
+
   .nav-link {
     position: relative;
 
@@ -84,9 +89,8 @@
 
   .contacts-link {
     display: block;
-    padding: 6px 0;
 
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
 

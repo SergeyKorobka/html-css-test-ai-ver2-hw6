@@ -30,7 +30,7 @@
   position: relative;
   max-width: 288px;
   min-height: 584px;
-  padding: 72px 24px 24px;
+  padding: 72px 16px 24px;
   border-radius: 4px;
 
   box-shadow:
@@ -43,6 +43,7 @@
 @media screen and (min-width: 768px) {
   .modal {
     max-width: 408px;
+    padding: 72px 24px 24px;
   }
 }
 
