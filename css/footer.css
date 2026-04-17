@@ -3,13 +3,6 @@
   background-color: #2e2f42;
 }
 
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 72px 24px;
-  justify-content: center;
-}
-
 .footer-container .footer-logo {
   display: block;
   text-align: center;
@@ -21,20 +14,23 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-bottom: 72px;
 }
 
 .footer-title {
   margin-bottom: 16px;
 
-  text-align: center;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
 }
-
+.footer-social-wrapper {
+  width: 100%;
+}
 .footer-social-list {
   gap: 16px;
+  margin-bottom: 72px;
 }
 
 .footer-subscribe-form {
@@ -46,7 +42,7 @@
 }
 
 .footer-subscribe-input {
-  width: 100%;
+  width: 264px;
   height: 40px;
   padding: 0 16px;
   border: 1px solid #fff;
@@ -64,14 +60,22 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-subscribe-wrapper {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .footer-container {
-    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
     align-items: flex-start;
   }
 
   .footer-text-wrapper {
     max-width: 264px;
+    margin-right: 24px;
   }
 
   .footer-container .footer-logo,

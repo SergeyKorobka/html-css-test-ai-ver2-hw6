@@ -1,21 +1,19 @@
 .features-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 72px 24px;
 }
 
 .features-item {
   width: 100%;
+  margin-bottom: 24px;
 }
 
 .features-subtitle {
   margin-bottom: 8px;
 
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   color: #2e2f42;
 }
 
@@ -32,8 +30,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .features-list {
+    gap: 72px 24px;
+  }
   .features-item {
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 48px) / 2);
   }
 
   .features-subtitle {
@@ -56,17 +57,5 @@
     border: 1px solid #8e8f99;
     border-radius: 4px;
     background-color: #f4f4fd;
-  }
-
-  .features-subtitle {
-    margin-bottom: 8px;
-
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-  }
-
-  .features-text {
-    font-weight: 400;
   }
 }
