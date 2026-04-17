@@ -11,19 +11,17 @@
 .header-container {
   display: flex;
   align-items: center;
-  padding: 0;
+  padding: 0 16px;
 }
 
 .header-logo {
   margin-right: auto;
-  padding-top: 16px;
   padding-left: 16px;
 }
 
 .burger-btn {
   background-color: transparent;
   border: none;
-  padding-top: 16px;
   padding-right: 16px;
 }
 
@@ -70,7 +68,7 @@
     gap: 40px;
   }
 
-  .contacts-item {
+  .contacts-item:not(:last-child) {
     margin-bottom: 12px;
   }
 

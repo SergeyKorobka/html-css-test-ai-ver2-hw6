@@ -78,6 +78,10 @@
   gap: 40px;
 }
 
+.mobile-menu-contacts {
+  font-style: normal;
+}
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;

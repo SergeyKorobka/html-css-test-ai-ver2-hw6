@@ -26,6 +26,9 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .portfolio-list {
+    gap: 48px 24px;
+  }
   .portfolio-item {
     box-shadow: none;
     width: calc((100% - 48px) / 3);
