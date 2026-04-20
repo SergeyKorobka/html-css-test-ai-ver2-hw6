@@ -11,24 +11,33 @@
 .features-subtitle {
   margin-bottom: 8px;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
 
 .features-text {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.features-icon-wrapper {
-  display: none;
+@media screen and (max-width: 767px) {
+  .features-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+  .features-text {
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .features-icon-wrapper {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -66,9 +75,5 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-  }
-
-  .features-text {
-    font-weight: 400;
   }
 }
